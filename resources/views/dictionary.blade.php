@@ -13,20 +13,20 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
       <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="{{asset('css/style.css')}}">
       <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="{{asset('images/fevicon.png" type="image/gif')}}" />
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="{{asset('css/jquery.mCustomScrollbar.min.css')}}">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <!-- owl stylesheets --> 
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+      <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
       <style>
       .a.form-control {
@@ -130,143 +130,99 @@
             <div class="row">
               <div class="col-sm-12">
                 <div class="choose_main">
-                  <div class="bulat">
-                    <div class="circle-container-bulet">
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="{{route ('huruf', ['huruf' => 'A'])}}">A</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">B</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">C</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">D</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">E</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">F</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">G</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">H</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">I</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">J</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">K</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">L</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">M</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">N</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">O</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">P</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">Q</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">R</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">S</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">T</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">U</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">V</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">W</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">X</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">Y</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">Z</a>
-                        </h1>
-                      </div>
-                    </div>
-                    {{-- <h1 class=" huruf"><a href="#">I AM</a></h1> --}}
-                    {{-- <h1 class="number_text huruf"><a href="#">I AM</a></h1> --}}
-                    {{-- <h1 class="number_text huruf"><a href="#">I AM</a></h1> --}}
+                  <div class="choose_left">
+                    <h1 class="number_text"><a href="#">ARAH</a></h1>
                   </div>
+                  <div class="choose_right">
+                    <h1 class="choose_text">"Direction" <span style="color: #32caeb;"> .N</span></h1>
+                    {{-- <h3 class="">Definisi</h3> --}}
+                    <ul class="dictionari-ul">
+                      {{-- <li>-<span style="color: #32caeb;"> Celui (ou celle) qui parle ou qui écrit, se référant à lui (ou elle) seul</span></li> --}}
+                      <li> 1.example </li>
+                      <div class="bungkus-p">
+                        <p class="isi-dictionary">
+                          dia berangkat ke arah masjid<span style="color: #32caeb;"></span>
+                        </p>
+                        <p class="isi-dictionary">
+                          il part en direction de la mosquèe
+                        </p>
+                      </div>
+                      {{-- <li>- <span style="color: #32caeb;">Première personne du singulier</span></li> --}}
+                      <li> 2.example</li>
+                      <div class="bungkus-p">
+                        <p class="isi-dictionary">
+                          dari semua arah<span style="color: #32caeb;"></span>
+                        </p>
+                        <p class="isi-dictionary">
+                          de toutes parts
+                        </p>
+                      </div>
+                    </ul>
+                    <h1 class="choose_text">"Intention" <span style="color: #32caeb;"> .F</span></h1>
+                    <ul class="dictionari-ul">
+                      {{-- <li>-<span style="color: #32caeb;"> Celui (ou celle) qui parle ou qui écrit, se référant à lui (ou elle) seul</span></li> --}}
+                      <li> 1.example </li>
+                      <div class="bungkus-p">
+                        <p class="isi-dictionary">
+                          Ia bisa menerkah arah kemana percakapan itu<span style="color: #32caeb;"></span>
+                        </p>
+                        <p class="isi-dictionary">
+                          il peut deviner vers ou va la conversation
+                        </p>
+                      </div>
+                      {{-- <li>- <span style="color: #32caeb;">Première personne du singulier</span></li> --}}
+                      <li> 2.example</li>
+                      <div class="bungkus-p">
+                        <p class="isi-dictionary">
+                          dari semua arah<span style="color: #32caeb;"></span>
+                        </p>
+                        <p class="isi-dictionary">
+                          de toutes parts
+                        </p>
+                      </div>
+                    </ul>
+
+                    <br>
+                    <h1 class="choose_text"><span style="color: #32caeb;">BERARAH</span></h1>
+                    <ul class="dictionari-ul">
+                      {{-- <li>-<span style="color: #32caeb;"> Celui (ou celle) qui parle ou qui écrit, se référant à lui (ou elle) seul</span></li> --}}
+                      <li> <h4>"avoir une direction"</h4> </li>
+                      {{-- <li>- <span style="color: #32caeb;">Première personne du singulier</span></li> --}}
+                      <li><h4> "avoir un but"</h4></li>
+                      <div class="bungkus-p">
+                        <p class="isi-dictionary">
+                          jalanku tak berarah<span style="color: #32caeb;"></span>
+                        </p>
+                        <p class="isi-dictionary">
+                          ma vie n'a pas de but
+                        </p>
+                      </div>
+                    </ul>
+                    <h1 class="choose_text"><span style="color: #32caeb;">MENGARAH</span></h1>
+                    <ul class="dictionari-ul">
+                      {{-- <li>-<span style="color: #32caeb;"> Celui (ou celle) qui parle ou qui écrit, se référant à lui (ou elle) seul</span></li> --}}
+                      <li> <h4>"prendre la direction de"</h4> </li>
+                      <div class="bungkus-p">
+                        <p class="isi-dictionary">
+                          kapal perang mengarah ke timur<span style="color: #32caeb;"></span>
+                        </p>
+                        <p class="isi-dictionary">
+                         le beteau de guerre se dirige vers i'est
+                        </p>
+                      </div>
+                      {{-- <li>- <span style="color: #32caeb;">Première personne du singulier</span></li> --}}
+                      <li><h4> "viser,pointer,tendre"</h4></li>
+                      <div class="bungkus-p">
+                        <p class="isi-dictionary">
+                          tangannya mengarah ke muka<span style="color: #32caeb;"></span>
+                        </p>
+                        <p class="isi-dictionary">
+                          il tend la main devant lui
+                        </p>
+                      </div>
+                    </ul>
+                    </div>
+                </div>
               </div>
             </div>
           </div>
@@ -299,16 +255,16 @@
       </div>
       <!-- copyright section end -->
    <!-- Javascript files-->
-   <script src="js/jquery.min.js"></script>
-   <script src="js/popper.min.js"></script>
-   <script src="js/bootstrap.bundle.min.js"></script>
-   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="{{asset('js/jquery.min.js')}}"></script>
+   <script src="{{asset('js/popper.min.js')}}"></script>
+   <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+   <script src="{{asset('js/jquery-3.0.0.min.js')}}"></script>
  
    <!-- sidebar -->
-   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-   <script src="js/custom.js"></script>
+   <script src="{{asset('js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+   <script src="{{asset('js/custom.js')}}"></script>
    <!-- javascript --> 
-   <script src="js/owl.carousel.js"></script>
+   <script src="{{asset('js/owl.carousel.js')}}"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
    </body>
    </html>

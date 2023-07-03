@@ -1204,4 +1204,38 @@ button.send_text_login {
     margin-top: 0px;
     border-radius: 10px;
 }
+
+.circle-container-bulet {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* height: 100px; */
+    flex-wrap: wrap;
+  }
+
+  .circle-bulet {
+    display: flex;
+    width: 100px; /* Atur sesuai kebutuhan Anda */
+    height: 100px; /* Atur sesuai kebutuhan Anda */
+    border-radius: 50%;
+    background-color: #e8edf0; /* Atur warna latar belakang sesuai kebutuhan Anda */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+  }
+
+    div.circle-bulet h1 {
+        margin: 0;
+    }
+    .circle-bulet h1 a {
+    /* text-decoration: none; */
+    color: #fff; /* Atur warna teks sesuai kebutuhan Anda */
+    font-weight: bold;
+  }
+
+  .circle-bulet:hover{
+    background-color: #32cbec;
+  }
 /* tutup */

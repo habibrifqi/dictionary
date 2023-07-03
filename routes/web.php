@@ -38,5 +38,6 @@ Route::post('/register', [RegisterController::class, 'store'])->name('register.s
 
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [LoginController::class, 'login'])->name('login.submit');
+Route::get('/dictionarys/{huruf}', [LoginController::class, 'huruf'])->name('huruf');
 // Route::get('/login', 'LoginController@showLoginForm')->name('login');
 // Route::post('/login', 'LoginController@login')->name('login.submit');
