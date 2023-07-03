@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Web Elements</title>
+      <title>Dictionary</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -51,14 +51,14 @@
         <div class="header_main">
           <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="logo"><a href="#"><img src="images/logo.png"></a></div>
+              <div class="logo"><a href="#"><img src="{{asset('images/logo.png')}}"></a></div>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item dropdown">
-                    <a class="nav-link" href="dictionary.html" >dictionary</a>
+                    <a class="nav-link" href="{{route('dictionarys')}}" >dictionary</a>
                     <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">One</a>
                       <a class="dropdown-item" href="#">Two</a>
@@ -229,23 +229,7 @@
           </div>
         </div>
       </div>
-      <!-- works section end -->
-      <div class="subscribe_section">
-        <div class="container">
-          <div class="subscribe_main">
-            <div class="subscribe_left">
-              <h1 class="Subscribe_text">Subscribe Now</h1>
-            </div>
-            <div class="subscribe_middle">
-              <input type="text" class="Enter_text" placeholder="Enter your email" name="Enter your email">
-            </div>
-            <div class="subscribe_right">
-              <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- contact section end -->
+ 
 
       <!-- copyright section start -->
       <div class="copyright_section">

@@ -11,12 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
-        Schema::create('dtl_indo_prc', function (Blueprint $table) {
+        Schema::create('contoh_prancis', function (Blueprint $table) {
             $table->id();
-            $table->string('kamus_id');
-            $table->string('arti_prc');
-            $table->string('des_dtl_indo_prancis')->nullable();
+            $table->bigInteger('dtl_prc_indo_id');
+            $table->string('contoh_prc');
+            $table->string('arti_indo');
             $table->timestamps();
         });
     }
@@ -26,7 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
-        Schema::dropIfExists('dtl_indo_prancis');
+        Schema::dropIfExists('contoh_prancis');
     }
 };

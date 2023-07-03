@@ -15,16 +15,24 @@ use App\Http\Controllers\LoginController;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::get('/by', function () {
+    return view('byhuruf');
+});
 Route::get('/dictionarys', function () {
     return view('dictionarys');
-});
+})->name('dictionarys');;
 // Route::get('/singup', function () {
 //     return view('singup');
 // });

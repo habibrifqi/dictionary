@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Dictionary</title>
+      <title>Web Elements</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -19,7 +19,7 @@
       <!-- Responsive-->
       <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
       <!-- fevicon -->
-      <link rel="icon" href="{{asset('images/fevicon.png')}}" type="image/gif" />
+      <link rel="icon" href="{{asset('images/fevicon.png" type="image/gif')}}" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="{{asset('css/jquery.mCustomScrollbar.min.css')}}">
       <!-- Tweaks for older IEs-->
@@ -51,7 +51,7 @@
         <div class="header_main">
           <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="logo"><a href="#"><img src="{{asset('images/logo.png')}}"></a></div>
+              <div class="logo"><a href="#"><img src="images/logo.png"></a></div>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -98,7 +98,7 @@
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                   </div>
-                  {{-- <p class="call_text"><a href="#">Call:+01 9876543210</a></p> --}}
+                  <p class="call_text"><a href="#">Call:+01 9876543210</a></p>
                 </form>
               </div>
             </nav>
@@ -130,165 +130,55 @@
             <div class="row">
               <div class="col-sm-12">
                 <div class="choose_main">
-                  <div class="bulat">
-                    <div class="circle-container-bulet">
-                    <div class="circle-bulet a circle-bulet-a" id="circle-bulet-a">
-                        <h1>
-                          <a href="{{route ('huruf', ['huruf' => 'A'])}}">A</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">B</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">C</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">D</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">E</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">F</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">G</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">H</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">I</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">J</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">K</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">L</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">M</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">N</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">O</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">P</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">Q</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">R</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">S</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">T</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">U</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">V</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">W</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">X</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">Y</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">Z</a>
-                        </h1>
-                      </div>
-                    </div>
-                    {{-- <h1 class=" huruf"><a href="#">I AM</a></h1> --}}
-                    {{-- <h1 class="number_text huruf"><a href="#">I AM</a></h1> --}}
-                    {{-- <h1 class="number_text huruf"><a href="#">I AM</a></h1> --}}
+                  <div class="choose_left">
+                    <h1 class="number_text"><a href="#">I AM</a></h1>
                   </div>
+                  <div class="choose_right">
+                    <h1 class="choose_text">Je <span style="color: #32caeb;">Pronoun</span></h1>
+                    <h3 class="">Definisi</h3>
+                    <ul class="dictionari-ul">
+                      <li>-<span style="color: #32caeb;"> Celui (ou celle) qui parle ou qui écrit, se référant à lui (ou elle) seul</span></li>
+                      <div class="bungkus-p">
+                        <p class="isi-dictionary">
+                          Kalau kau tidak pergi, maka aku juga tidak akan pergi.
+                        </p>
+                        <p class="isi-dictionary">
+                          Si tu n'y vas pas, je n'irais pas non plus.
+                        </p>
+                      </div>
+                      <li>- <span style="color: #32caeb;">Première personne du singulier</span></li>
+                    </ul>
+                    </div>
+                </div>
+              </div>
+             
+              <div class="col-sm-12">
+                <a class="tag-a-dictionars" href="dictionary.html">
+                  <div class="choose_main">
+                    <div class="choose_left">
+                      <h1 class="number_text"><a href="#">you</a></h1>
+                    </div>
+                    <div class="choose_right">
+                      <h1 class="choose_text"><a href="">Choose what to do </a></h1>
+                      <p class="many_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            
+              <div class="col-sm-12">
+                <div class="choose_main">
+                  <div class="choose_left">
+                    <h1 class="number_text"><a href="#">eat</a></h1>
+                  </div>
+                  <div class="choose_right">
+                    <h1 class="choose_text">Choose what to do </h1>
+                    <p class="many_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          </div>
-          <br>
-          <br>
-          <br>
-          <div class="row">
-            <div class="container">
-              <div class="parenwordbyw-div">
-                  <a class="wordbyw"  href="" style="">Aku</a>
-                  <a class="wordbyw"  href="" style="">Agak</a>
-                  <a class="wordbyw"  href="" style="">Awal</a>
-                  <a class="wordbyw"  href="" style="">Aku</a>
-                  <a class="wordbyw"  href="" style="">Agak</a>
-                  <a class="wordbyw"  href="" style="">Awal</a>
-                  <a class="wordbyw"  href="" style="">Aku</a>
-                  <a class="wordbyw"  href="" style="">Agak</a>
-                  <a class="wordbyw"  href="" style="">Awal</a>
-
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -329,11 +219,5 @@
    <!-- javascript --> 
    <script src="{{asset('js/owl.carousel.js')}}"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-   <script>
-    document.getElementById("circle-bulet-a").addEventListener("click", function() {
-      window.location.href = "{{ route('huruf', ['huruf' => 'A']) }}";
-      console.log('asd');
-    });
-  </script>
    </body>
    </html>

@@ -16,8 +16,7 @@ return new class extends Migration
             $table->id();
             $table->string('kamus_id');
             $table->string('arti_indo');
-            $table->string('DPI_contoh_prancis');
-            $table->string('DPI_arti_indo');
+            $table->string('des_dtl_prc_indo')->nullable();
             $table->timestamps();
         });
     }

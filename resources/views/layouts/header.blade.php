@@ -9,7 +9,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item dropdown">
-                <a class="nav-link" href="dictionarys.html" >dictionary</a>
+                <a class="nav-link" href="{{route('dictionarys')}}" >dictionary</a>
                 <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">One</a>
                   <a class="dropdown-item" href="#">Two</a>
@@ -36,20 +36,20 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="">input</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <h4 class="login_text"><a href="login.html">Log In</a>|<a href="sigup.html">Sign Up</a></h4>
               <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add Listing</button>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USERNAME</button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Acccout</a>
+                  <a class="dropdown-item" href="#">About</a>
+                  <a class="dropdown-item" href="#">Logout</a>
                 </div>
               </div>
-              <p class="call_text"><a href="#">Call:+01 9876543210</a></p>
+              {{-- <p class="call_text"><a href="#">Call:+01 9876543210</a></p> --}}
             </form>
           </div>
         </nav>

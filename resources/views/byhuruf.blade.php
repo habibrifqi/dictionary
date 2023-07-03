@@ -19,7 +19,7 @@
       <!-- Responsive-->
       <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
       <!-- fevicon -->
-      <link rel="icon" href="{{asset('images/fevicon.png')}}" type="image/gif" />
+      <link rel="icon" href="{{asset('images/fevicon.png" type="image/gif')}}" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="{{asset('css/jquery.mCustomScrollbar.min.css')}}">
       <!-- Tweaks for older IEs-->
@@ -58,7 +58,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item dropdown">
-                    <a class="nav-link" href="dictionary.html" >dictionary</a>
+                    <a class="nav-link" href="{{route('dictionarys')}}" >dictionary</a>
                     <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">One</a>
                       <a class="dropdown-item" href="#">Two</a>
@@ -98,7 +98,7 @@
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                   </div>
-                  {{-- <p class="call_text"><a href="#">Call:+01 9876543210</a></p> --}}
+                  <p class="call_text"><a href="#">Call:+01 9876543210</a></p>
                 </form>
               </div>
             </nav>
@@ -128,155 +128,8 @@
             <h1 class="work_text"> <span style="color: #32caeb;">dictionary</span></h1>
             <div class="work_section2">
             <div class="row">
-              <div class="col-sm-12">
-                <div class="choose_main">
-                  <div class="bulat">
-                    <div class="circle-container-bulet">
-                    <div class="circle-bulet a circle-bulet-a" id="circle-bulet-a">
-                        <h1>
-                          <a href="{{route ('huruf', ['huruf' => 'A'])}}">A</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">B</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">C</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">D</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">E</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">F</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">G</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">H</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">I</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">J</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">K</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">L</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">M</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">N</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">O</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">P</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">Q</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">R</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">S</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">T</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a href="#">U</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">V</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">W</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">X</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">Y</a>
-                        </h1>
-                      </div>
-                      <div class="circle-bulet">
-                        <h1>
-                          <a class="aku" href="#">Z</a>
-                        </h1>
-                      </div>
-                    </div>
-                    {{-- <h1 class=" huruf"><a href="#">I AM</a></h1> --}}
-                    {{-- <h1 class="number_text huruf"><a href="#">I AM</a></h1> --}}
-                    {{-- <h1 class="number_text huruf"><a href="#">I AM</a></h1> --}}
-                  </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          <br>
-          <br>
-          <br>
-          <div class="row">
-            <div class="container">
-              <div class="parenwordbyw-div">
+              <div class="container conten">
+                <div class="parenwordbyw-div">
                   <a class="wordbyw"  href="" style="">Aku</a>
                   <a class="wordbyw"  href="" style="">Agak</a>
                   <a class="wordbyw"  href="" style="">Awal</a>
@@ -286,29 +139,16 @@
                   <a class="wordbyw"  href="" style="">Aku</a>
                   <a class="wordbyw"  href="" style="">Agak</a>
                   <a class="wordbyw"  href="" style="">Awal</a>
+                 
 
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- works section end -->
-      <div class="subscribe_section">
-        <div class="container">
-          <div class="subscribe_main">
-            <div class="subscribe_left">
-              <h1 class="Subscribe_text">Subscribe Now</h1>
-            </div>
-            <div class="subscribe_middle">
-              <input type="text" class="Enter_text" placeholder="Enter your email" name="Enter your email">
-            </div>
-            <div class="subscribe_right">
-              <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- contact section end -->
+      
+      
 
       <!-- copyright section start -->
       <div class="copyright_section">
@@ -329,11 +169,5 @@
    <!-- javascript --> 
    <script src="{{asset('js/owl.carousel.js')}}"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-   <script>
-    document.getElementById("circle-bulet-a").addEventListener("click", function() {
-      window.location.href = "{{ route('huruf', ['huruf' => 'A']) }}";
-      console.log('asd');
-    });
-  </script>
    </body>
    </html>

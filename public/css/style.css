@@ -1226,6 +1226,10 @@ button.send_text_login {
     margin: 10px;
   }
 
+  .bulat{
+    margin-bottom: 3em;
+  }
+
     div.circle-bulet h1 {
         margin: 0;
     }
@@ -1238,4 +1242,24 @@ button.send_text_login {
   .circle-bulet:hover{
     background-color: #32cbec;
   }
+
+  .parenwordbyw-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .wordbyw {
+    width: 32%; /* Setiap child div mendapatkan 1/3 lebar parent div */
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    /* margin: 0 1em 1em 1em; */
+    background-color: #33d0f2;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    font-weight: 600;
+  }
+
+  
 /* tutup */
