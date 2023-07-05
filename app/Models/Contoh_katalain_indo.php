@@ -5,15 +5,18 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Dtl_indo_prc extends Model
+class Contoh_katalain_indo extends Model
 {
     use HasFactory;
 
-    protected $table = 'dtl_indo_prc';
+    protected $table = 'contoh_katalain_indo';
 
     protected $fillable = [
-        'kamus_id',
-        'arti_prc',
+        'katalain_indo_id',
+        'kl_contoh_indo',
+        'kl_arti_prc',
+        'des_kl_contoh_indo',
+        
     ];
 
     protected $guarded = [];
