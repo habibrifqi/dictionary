@@ -14,8 +14,9 @@ return new class extends Migration
         Schema::create('contoh_katalain_indo', function (Blueprint $table) {
             $table->id();
             $table->bigInteger('katalain_indo_id');
-            $table->bigInteger('kl_contoh_indo');
-            $table->bigInteger('kl_arti_prc');
+            $table->string('kl_contoh_indo');
+            $table->string('kl_arti_prc');
+            $table->string('des_kl_contoh_indo')->nullable();
             $table->timestamps();
         });
     }

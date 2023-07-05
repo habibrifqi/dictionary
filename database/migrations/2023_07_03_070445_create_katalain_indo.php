@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('katalain_indo', function (Blueprint $table) {
             $table->id();
             $table->string('kamus_id');
-            $table->bigInteger('kl_indo');
+            $table->string('kl_indo');
             $table->string('des_kl_indo')->nullable();
             $table->timestamps();
         });

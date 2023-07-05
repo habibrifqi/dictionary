@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('katalain_prc', function (Blueprint $table) {
             $table->id();
             $table->string('kamus_id');
-            $table->bigInteger('kl_prc');
+            $table->string('kl_prc');
             $table->string('des_kl_prc')->nullable();
             $table->timestamps();
         });
