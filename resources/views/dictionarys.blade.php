@@ -132,132 +132,132 @@
                 <div class="choose_main">
                   <div class="bulat">
                     <div class="circle-container-bulet">
-                    <div class="circle-bulet a circle-bulet-a" id="circle-bulet-a">
+                      <div class="circle-bulet a " id="circle-bulet-a" huruf="a">
                         <h1>
                           <a href="{{route ('huruf', ['huruf' => 'A'])}}">A</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-b" huruf="b">
                         <h1>
                           <a href="#">B</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-c" huruf="c">
                         <h1>
                           <a href="#">C</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-d" huruf="d">
                         <h1>
                           <a href="#">D</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-e" huruf="e">
                         <h1>
                           <a href="#">E</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-f" huruf="f">
                         <h1>
                           <a href="#">F</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-g" huruf="g">
                         <h1>
                           <a href="#">G</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-h" huruf="h">
                         <h1>
                           <a href="#">H</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-i" huruf="i">
                         <h1>
                           <a href="#">I</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-j" huruf="j">
                         <h1>
                           <a href="#">J</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-k" huruf="k">
                         <h1>
                           <a href="#">K</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-l" huruf="l">
                         <h1>
                           <a href="#">L</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-m" huruf="m">
                         <h1>
                           <a href="#">M</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-n" huruf="n">
                         <h1>
                           <a href="#">N</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-o" huruf="o">
                         <h1>
                           <a href="#">O</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-p" huruf="p">
                         <h1>
                           <a href="#">P</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-q" huruf="q">
                         <h1>
                           <a href="#">Q</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-r" huruf="r">
                         <h1>
                           <a href="#">R</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet"  id="circle-bulet-s" huruf="s">
                         <h1>
                           <a href="#">S</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-t" huruf="t">
                         <h1>
                           <a href="#">T</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-u" huruf="u">
                         <h1>
                           <a href="#">U</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-v" huruf="v">
                         <h1>
-                          <a class="aku" href="#">V</a>
+                          <a class="aku" href="">V</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-w" huruf="w">
                         <h1>
                           <a class="aku" href="#">W</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-x" huruf="x">
                         <h1>
                           <a class="aku" href="#">X</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-y" huruf="y">
                         <h1>
                           <a class="aku" href="#">Y</a>
                         </h1>
                       </div>
-                      <div class="circle-bulet">
+                      <div class="circle-bulet" id="circle-bulet-z" huruf="z">
                         <h1>
                           <a class="aku" href="#">Z</a>
                         </h1>
@@ -277,15 +277,16 @@
           <div class="row">
             <div class="container">
               <div class="parenwordbyw-div">
-                  <a class="wordbyw"  href="" style="">Aku</a>
-                  <a class="wordbyw"  href="" style="">Agak</a>
-                  <a class="wordbyw"  href="" style="">Awal</a>
-                  <a class="wordbyw"  href="" style="">Aku</a>
-                  <a class="wordbyw"  href="" style="">Agak</a>
-                  <a class="wordbyw"  href="" style="">Awal</a>
-                  <a class="wordbyw"  href="" style="">Aku</a>
-                  <a class="wordbyw"  href="" style="">Agak</a>
-                  <a class="wordbyw"  href="" style="">Awal</a>
+                <input type="hidden" id="hurufInput" value="{{$huruf}}">
+                @if ($kamuses)
+                    @if ($kamuses->count() > 0)
+                        @foreach ($kamuses as $kamus)
+                            <a class="wordbyw" href="{{ route('dictionary', ['id' => $kamus->id]) }}">{{ $kamus->indonesia }}</a>
+                        @endforeach
+                    @else
+                    
+                    @endif
+                @endif
 
               </div>
             </div>
@@ -309,7 +310,7 @@
         </div>
       </div>
       <!-- contact section end -->
-
+<br>
       <!-- copyright section start -->
       <div class="copyright_section">
         <div class="container">
@@ -329,10 +330,22 @@
    <!-- javascript --> 
    <script src="{{asset('js/owl.carousel.js')}}"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
    <script>
-    document.getElementById("circle-bulet-a").addEventListener("click", function() {
-      window.location.href = "{{ route('huruf', ['huruf' => 'A']) }}";
-      console.log('asd');
+    $( document ).ready(function() {
+        $(".circle-bulet").click(function() {
+          var huruf = $(this).attr("huruf");
+          // console.log(huruf);
+          var url = "{{ route('huruf', ['huruf' => 'PLACEHOLDER' ]) }}";
+          url = url.replace('PLACEHOLDER', huruf);
+          window.location.href = url;
+        });
+
+        $(document).ready(function() {
+          var ff = $("#hurufInput").val();
+          $(`.circle-bulet[huruf='${ff}']`).addClass("huruf-active");
+          console.log(ff);
+        });
     });
   </script>
    </body>

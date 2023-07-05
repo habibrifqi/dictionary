@@ -1233,6 +1233,9 @@ button.send_text_login {
     div.circle-bulet h1 {
         margin: 0;
     }
+    div.circle-bulet.huruf-active {
+        background-color: #32cbec;
+    }
     .circle-bulet h1 a {
     /* text-decoration: none; */
     color: #fff; /* Atur warna teks sesuai kebutuhan Anda */

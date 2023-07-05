@@ -33,7 +33,5 @@ class LoginController extends Controller
         }
     }
 
-    public function huruf(Request $request,$huruf) {
-        return view('dictionary');
-    }
+
 }
